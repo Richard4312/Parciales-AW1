@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacto de CarniceriaJacinto: teléfonos, WhatsApp, correo, dirección, horarios y zonas de entrega para comercios y empresas.">
+    <title>CarniceriaJacinto-Contacto</title>
+    <link rel="stylesheet" href="recursos/css/base.css">
+    <link rel="stylesheet" href="recursos/css/contacto.css">
+</head>
+<body>
+    <header class="cabecera-principal">
+        <a href="./index.html">
+            <img src="./recursos/imagenes/LogoToroCarniceria.png" alt="logo de CarniceriaJacinto">
+        </a>
+        <nav aria-label="Principal">
+            <a href="./index.html">Inicio</a>
+            <a href="./contacto.html" aria-current="page">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="contenido-principal">
+        <h1>Contacto</h1>
+        <p>Comunicate con nuestro equipo de ventas para pedir la lista de precios, coordinar una entrega o hacer una consulta.</p>
+
+        <section class="datos-contacto" aria-labelledby="titulo-datos">
+            <h2 id="titulo-datos">Cómo comunicarte con nosotros</h2>
+            <article>
+                <h3>Ventas y pedidos</h3>
+                <address>
+                    <ul>
+                        <li>Teléfono: <a href="tel:+540000000000">+54 000 000-0000</a></li>
+                        <li>WhatsApp: <a href="https://wa.me/540000000000" target="_blank" rel="noopener">+54 000 000-0000</a></li>
+                        <li>Correo: <a href="mailto:ventas@carniceriajacinto.com">ventas@carniceriajacinto.com</a></li>
+                    </ul>
+                </address>
+            </article>
+            <article>
+                <h3>Facturación y administración</h3>
+                <address>
+                    <ul>
+                        <li>Teléfono: <a href="tel:+540000000001">+54 000 000-0001</a></li>
+                        <li>Correo: <a href="mailto:administracion@carniceriajacinto.com">administracion@carniceriajacinto.com</a></li>
+                    </ul>
+                </address>
+            </article>
+            <article>
+                <h3>Reclamos y calidad</h3>
+                <address>
+                    <ul>
+                        <li>WhatsApp: <a href="https://wa.me/540000000002" target="_blank" rel="noopener">+54 000 000-0002</a></li>
+                        <li>Correo: <a href="mailto:reclamos@carniceriajacinto.com">reclamos@carniceriajacinto.com</a></li>
+                    </ul>
+                </address>
+            </article>
+        </section>
+
+        <section class="ubicacion" aria-labelledby="titulo-ubicacion">
+            <h2 id="titulo-ubicacion">Dónde estamos</h2>
+            <address>
+                CarniceriaJacinto<br>
+                Calle Ejemplo 1234<br>
+                Tu ciudad, Tu provincia<br>
+                Código postal 0000
+            </address>
+            <p>Retiro de mercadería en el frigorífico con pedido previo.</p>
+        </section>
+
+        <section class="horarios" aria-labelledby="titulo-horarios">
+            <h2 id="titulo-horarios">Horarios</h2>
+            <article>
+                <h3>Atención al público y ventas</h3>
+                <ul>
+                    <li>Lunes a sábado: 7:00 a 20:00</li>
+                    <li>Domingo: 8:00 a 13:00</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Recepción de pedidos para distribución</h3>
+                <ul>
+                    <li>Lunes a viernes: 7:00 a 17:00</li>
+                    <li>Pedidos hasta las 17:00 para entrega al día siguiente</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Entregas</h3>
+                <ul>
+                    <li>Lunes a sábado: 5:00 a 13:00</li>
+                    <li>Días y horarios fijos según zona</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="zonas-entrega" aria-labelledby="titulo-zonas">
+            <h2 id="titulo-zonas">Zonas de entrega</h2>
+            <p>Distribuimos con camiones refrigerados en:</p>
+            <ul>
+                <li>Ciudad y alrededores</li>
+                <li>Interior de la provincia</li>
+                <li>Localidades vecinas (consultar costo de flete)</li>
+            </ul>
+        </section>
+
+        <section class="como-pedir" aria-labelledby="titulo-pedir">
+            <h2 id="titulo-pedir">Cómo hacer un pedido</h2>
+            <ol>
+                <li>Escribinos o llamanos y pedí la lista de precios actualizada.</li>
+                <li>Indicá los cortes, las cantidades y la dirección de entrega.</li>
+                <li>Confirmá el día y el horario de entrega con ventas.</li>
+                <li>Recibí la mercadería con remito y pagá según lo acordado.</li>
+            </ol>
+            <p>Para tu primer pedido tené a mano el nombre del comercio o empresa, el CUIT y un teléfono de contacto.</p>
+        </section>
+
+        <section class="formulario-contacto" aria-labelledby="titulo-formulario">
+            <h2 id="titulo-formulario">Envianos tu consulta</h2>
+            <form action="mailto:ventas@carniceriajacinto.com" method="post" enctype="text/plain">
+                <label for="nombre">Nombre y apellido</label>
+                <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+
+                <label for="empresa">Comercio o empresa</label>
+                <input type="text" id="empresa" name="empresa" autocomplete="organization">
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" autocomplete="tel" required>
+
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" autocomplete="email" required>
+
+                <label for="tipo">Tipo de consulta</label>
+                <select id="tipo" name="tipo">
+                    <option value="lista-precios">Pedir lista de precios</option>
+                    <option value="pedido">Hacer un pedido</option>
+                    <option value="entregas">Consultar entregas</option>
+                    <option value="reclamo">Reclamo</option>
+                    <option value="otro">Otra consulta</option>
+                </select>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar consulta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="pie-principal">
+        <ul>
+            <li>
+                <a class="vinculo-pie" href="https://instagram.com/carniceriajacinto" target="_blank" rel="noopener">@carniceriajacinto</a>
+            </li>
+            <li>
+                <address>Calle Ejemplo 1234 - Tu ciudad</address>
+            </li>
+            <li>Lunes a sábado de 7:00 a 20:00</li>
+            <li>
+                <a class="contacto-whatsapp" href="https://wa.me/540000000000" aria-label="Escribinos por WhatsApp">
+                    <img src="./recursos/imagenes/mensajes.svg" alt="">
+                </a>
+            </li>
+        </ul>
+        <p><small>© 2024 CarniceriaJacinto. Todos los derechos reservados.</small></p>
+    </footer>
+</body>
+</html>
